@@ -312,7 +312,7 @@ namespace SierraBreeze
 
                 case DecorationButtonType::Shade:
                 {
-                    Color button_color = QColor(135, 206, 249);
+                    QColor button_color = QColor(135, 206, 249);
                     if (!c->isActive())
                         button_color = QColor(192, 206, 219);
                     painter->setBrush( button_color );
