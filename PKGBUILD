@@ -10,7 +10,7 @@ url="https://github.com/jcatrdev/macbreezej-kwin"
 license=('GPLv3')
 depends=('kwin')
 makedepends=('git' 'cmake' 'extra-cmake-modules')
-source=('git+${url}.git')
+source=("git+${url}.git")
 sha256sums=('SKIP')
 
 build() {
