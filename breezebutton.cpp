@@ -267,7 +267,7 @@ namespace SierraBreeze
                     break;
                 }
 
-                case DecorationButtonType::Minimize: // Maximize
+                case DecorationButtonType::Minimize: // Minimize
                 {
                     QColor button_color = QColor(1, 93, 166); // Active
                     if (!c->isActive())
