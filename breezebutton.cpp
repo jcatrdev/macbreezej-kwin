@@ -212,7 +212,7 @@ namespace SierraBreeze
 
                 case DecorationButtonType::Close: // Close
                 {
-                    QColor button_color = QColor(191, 97, 106); // Active
+                    QColor button_color = QColor(214, 39, 54); // Active
                     if (!c->isActive())
                         button_color = QColor(192, 206, 219); // Inactive
                     painter->setBrush( button_color );
@@ -234,7 +234,7 @@ namespace SierraBreeze
 
                 case DecorationButtonType::Maximize: // Maximize
                 {
-                    QColor button_color = QColor(163, 190, 140); // Active
+                    QColor button_color = QColor(18, 193, 30); // Active
                     if (!c->isActive())
                         button_color = QColor(192, 206, 219); // Inactive
 
@@ -269,7 +269,7 @@ namespace SierraBreeze
 
                 case DecorationButtonType::Minimize: // Minimize
                 {
-                    QColor button_color = QColor(235, 203, 139); // Active
+                    QColor button_color = QColor(250, 197, 55); // Active
                     if (!c->isActive())
                         button_color = QColor(192, 206, 219); // Inactive
 
